@@ -1,0 +1,21 @@
+{
+    "name": "colgafas/tech-test",
+    "description": "A speacial designed repository for testing new team member s of the development team of Colgafas.",
+    "authors": [
+        {
+            "name": "Luis Guillermo Moreno",
+            "email": "luisgmore@gmail.com"
+        }
+    ],
+
+    "require": {
+        "illuminate/database": "^8.16"
+    },
+
+    "autoload": {
+		"psr-4": {
+			"App\\": "app/",
+			"Tests\\": "tests/"
+		}
+	}
+}
